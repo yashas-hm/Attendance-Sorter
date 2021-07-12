@@ -5,8 +5,8 @@ Data is saved in a csv file on desktop<br>
 
 ## Download Here
 Download the installer from the link below:
-<br>
-[DOWNLOAD]()
+
+[DOWNLOAD HERE!!!]()
 
 ## How to use 
 
@@ -18,3 +18,18 @@ Step 4. Enter the data copied from chat in google meet and press evaluate button
 Done!! Data will automatically be added in column with heading as today's date.<br>
 
 ## Screenshots
+<p>
+  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/1.JPG" width="400"/>
+  &nbsp
+  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/1.JPG" width="400"/>
+  &nbsp
+  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/2.JPG" width="400"/>
+  &nbsp
+  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/3.JPG" width="400"/>
+  &nbsp
+  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/4.JPG" width="400"/>
+  &nbsp
+  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/5.JPG" width="400"/>
+  &nbsp
+  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/6.JPG" width="400"/>
+</p>
