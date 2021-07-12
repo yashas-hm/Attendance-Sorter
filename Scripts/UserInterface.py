@@ -1,8 +1,8 @@
 import tkinter as tk
 
-from AttendanceScript import AttendanceEvaluation
-import FileStorageManager
-import PopUpManager
+from Scripts import FileStorageManager
+from Scripts.AttendanceScript import AttendanceEvaluation
+from Scripts import PopUpManager
 
 
 class UserInterface:
@@ -78,6 +78,9 @@ class UserInterface:
 
     def submit(self):
         text = self.entry.get(1.0, 'end-1c')
-        complete = AttendanceEvaluation(text, self.file_store.filepath).start_evaluation()
-        self.label['text'] = complete
-        self.entry.delete(1.0, 'end')
+        if text == '':
+            PopUpManager.error_popup(self.window, 'No attendance data entered!')
+        else:
+            complete = AttendanceEvaluation(text, self.file_store.filepath).start_evaluation()
+            self.label['text'] = complete
+            self.entry.delete(1.0, 'end')

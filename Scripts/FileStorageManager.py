@@ -1,6 +1,6 @@
 import os
 import tkinter as tk
-import PopUpManager
+from Scripts import PopUpManager
 
 
 class FileStore:
