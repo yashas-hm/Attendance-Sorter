@@ -6,7 +6,7 @@ Data is saved in a csv file on desktop<br>
 ## Download Here
 Download the installer from the link below:
 
-[DOWNLOAD HERE!!!]()
+[DOWNLOAD HERE!!!](https://mega.nz/file/WKIVCI7D#RxSsoiCLG6GfFSkA3A50vCwtbyqW7lYzmgblTcdUP3M)
 
 ## How to use 
 
