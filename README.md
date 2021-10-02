@@ -43,3 +43,6 @@ Done!! Data will automatically be added in column with heading as current date.<
   &nbsp
   <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/8.JPG" width="400"/>
 </p>
+
+### Update
+  - Added word recogniser feature so that it can be used by all universities.
