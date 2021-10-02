@@ -53,3 +53,48 @@ def about_us_popup(root):
     ok_btn.grid(row=2, column=1, sticky='nsew')
 
     about_window.mainloop()
+
+
+def sorter_recogniser(root, filepath):
+    def destroy():
+        recogniser.destroy()
+
+    recogniser = tk.Toplevel(root)
+    recogniser.title('Recogniser Word')
+    recogniser.geometry('310x140+600+300')
+    recogniser['padx'] = 10
+    recogniser['pady'] = 10
+
+    recogniser.rowconfigure(0, weight=10)
+    recogniser.rowconfigure(1, weight=10)
+    recogniser.rowconfigure(2, weight=30)
+    recogniser.rowconfigure(3, weight=10)
+    recogniser.rowconfigure(4, weight=10)
+    recogniser.columnconfigure(0, weight=10)
+    recogniser.columnconfigure(1, weight=5)
+    recogniser.columnconfigure(2, weight=10)
+
+    text = "Enter recogniser text.\nFor eg. IU for IU1941230066"
+    hint_label = tk.Label(recogniser, text=text)
+    hint_label.grid(row=0, column=0, columnspan=3, stick='nsew')
+
+    input_field = tk.Entry(recogniser)
+    input_field.grid(row=2, column=0, columnspan=3, sticky='nsew')
+
+    def submit():
+        word = str(input_field.get())
+        if word != "":
+            file = open(filepath, 'wb')
+            binary = bytearray(word.encode('ascii'))
+            file.write(binary)
+            file.close()
+            destroy()
+            return word
+        else:
+            error_popup(recogniser, "Cannot put recogniser word empty")
+
+    ok_btn = tk.Button(recogniser, text='Submit', command=submit)
+    ok_btn.grid(row=4, column=1, sticky='nsew')
+
+    recogniser.mainloop()
+

@@ -52,6 +52,7 @@ class UserInterface:
 
         file_menu = tk.Menu(self.window, tearoff=0)
         file_menu.add_command(label='New', command=self.file_store.new_file)
+        file_menu.add_command(label='New Recogniser Word', command=self.file_store.new_recogniser_word)
         file_menu.add_command(label='Open', command=self.file_store.open_file)
         file_menu.add_separator()
         file_menu.add_command(label='Exit', command=destroy)
@@ -81,6 +82,6 @@ class UserInterface:
         if text == '':
             PopUpManager.error_popup(self.window, 'No attendance data entered!')
         else:
-            complete = AttendanceEvaluation(text, self.file_store.filepath).start_evaluation()
+            complete = AttendanceEvaluation(text, self.file_store.filepath, self.file_store.recogniser).start_evaluation()
             self.label['text'] = complete
             self.entry.delete(1.0, 'end')

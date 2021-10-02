@@ -8,6 +8,8 @@ class FileStore:
         self.desktop_path = os.path.join(os.environ['USERPROFILE'], 'Desktop')
         self.path = os.path.join(self.desktop_path, 'Attendance Sorter')
         self.filepath = ''
+        self.recogniser = ''
+        self.datapath = os.path.join(self.path, 'data.bin')
         self.root = root
         self.label = label
 
@@ -16,6 +18,16 @@ class FileStore:
             os.mkdir(self.path, 0o666)
         except FileExistsError:
             print('Already Exists')
+
+        try:
+            file = open(self.datapath, 'rb')
+            self.recogniser = str(file.read().decode('ascii'))
+            if self.recogniser == "":
+                self.recogniser = PopUpManager.sorter_recogniser(self.root, self.datapath)
+            print(self.recogniser)
+            file.close()
+        except FileNotFoundError:
+            self.recogniser = PopUpManager.sorter_recogniser(self.root, self.datapath)
 
         arr = self.get_files()
         if len(arr) == 0:
@@ -96,6 +108,10 @@ class FileStore:
         button.grid(row=1, column=1, sticky='nsew')
 
         list_window.mainloop()
+
+    def new_recogniser_word(self):
+        self.recogniser = PopUpManager.sorter_recogniser(self.root, self.datapath)
+        print(self.recogniser)
 
     def get_files(self):
         arr = []

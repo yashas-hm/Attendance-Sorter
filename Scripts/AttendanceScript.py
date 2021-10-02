@@ -5,9 +5,10 @@ import pandas.errors
 
 
 class AttendanceEvaluation:
-    def __init__(self, data, filepath):
+    def __init__(self, data, filepath, recogniser):
         self.roll_no = []
         self.filepath = filepath
+        self.recogniser = str(recogniser)
         try:
             self.df = pd.read_csv(filepath)
         except (FileNotFoundError, pandas.errors.EmptyDataError):
@@ -29,7 +30,7 @@ class AttendanceEvaluation:
         for i in array:
             i = str(i)
             i = i.upper()
-            if i.startswith('IU'):
+            if i.startswith(self.recogniser):
                 if not self.roll_no.__contains__(i):
                     self.roll_no.append(i)
 
