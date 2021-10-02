@@ -1,6 +1,6 @@
 # Attendance Sorter
 
-Simple GUI based application to sort attendance for Indus University Students.<br>
+Simple GUI based application to sort attendance for University Students.<br>
 Data is evaluated using pandas to ensure structural and data integrity<br>
 Data is saved in a csv file on desktop<br>
 
@@ -8,16 +8,17 @@ Data is saved in a csv file on desktop<br>
 
 Download the installer from the link below:
 
-[DOWNLOAD HERE!!!](https://mega.nz/file/WKIVCI7D#RxSsoiCLG6GfFSkA3A50vCwtbyqW7lYzmgblTcdUP3M)
+[DOWNLOAD HERE!!!](https://mega.nz/file/KXBiUDpD#CvF1vVbEjfPcrEEBqfzud8mawxQ2jDnyjK_2dJ0-CVc)
 
 ## How to use
 
 Step 1. Download and install the program.<br>
 Step 2. Run Attendance Sorter.exe<br>
-Step 3. Two windows will open. Enter name of new file in the textbox and press create.<br>
-Step 4. Enter the data copied from chat in google meet and press evaluate button.
+Step 3. Enter recogniser word through which the program selects the enrollment number.<br>
+Step 4. Two windows will open. Enter name of new file in the textbox and press create.<br>
+Step 5. Enter the data copied from chat in google meet and press evaluate button.
 
-Done!! Data will automatically be added in column with heading as today's date.<br>
+Done!! Data will automatically be added in column with heading as current date.<br>
 
 ## Screenshots
 
