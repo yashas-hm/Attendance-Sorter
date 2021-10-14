@@ -29,7 +29,7 @@ class AttendanceEvaluation:
         array = self.data.split('\n')
         for i in array:
             i = str(i)
-            i = i.upper()
+            i = i.upper().strip()
             if i.startswith(self.recogniser):
                 if not self.roll_no.__contains__(i):
                     self.roll_no.append(i)
