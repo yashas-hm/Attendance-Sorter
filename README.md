@@ -8,7 +8,7 @@ Data is saved in a csv file on desktop<br>
 
 Download the installer from the link below:
 
-[DOWNLOAD HERE!!!](https://mega.nz/file/KXBiUDpD#CvF1vVbEjfPcrEEBqfzud8mawxQ2jDnyjK_2dJ0-CVc)
+[DOWNLOAD HERE!!!](https://mega.nz/file/uaRlCaib#3dUqc3WddQL9FRCf0xOfaC7GVYqXaHmg8q2IUJ19548)
 
 ## How to use
 
