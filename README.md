@@ -20,6 +20,9 @@ Step 5. Enter the data copied from chat in google meet and press evaluate button
 
 Done!! Data will automatically be added in column with heading as current date.<br>
 
+## Graphic Manual
+[Manual](https://mega.nz/file/3bBHDaBK#UCsqVvycq1ZwkUfxwOQtdqX9vh4JldA-MqiHcv2eD1Y)
+
 ## Screenshots
 
 <p>
