@@ -1,51 +1,35 @@
-# Attendance Sorter
+# 📋 Attendance Sorter
 
-Simple GUI based application to sort attendance for University Students.<br>
-Data is evaluated using pandas to ensure structural and data integrity<br>
-Data is saved in a csv file on desktop<br>
+Attendance Sorter is a simple GUI-based application designed to help university students sort attendance data conveniently. The program utilizes pandas to ensure structural and data integrity and saves the processed data in a CSV file on the desktop.
 
-## Download Here
+## [📥 Download Here](https://cdn.yashashm.dev/artifacts/attendance_sorter.exe)
 
-Download the installer from the link below:
+## 💡 How to Use
 
-[DOWNLOAD HERE!!!](https://mega.nz/file/uaRlCaib#3dUqc3WddQL9FRCf0xOfaC7GVYqXaHmg8q2IUJ19548)
+1. **Download and Install:** Download and install the program.
+2. **Run the Program:** Run Attendance Sorter.exe.
+3. **Enter Recognizer Word:** Enter the recogniser word through which the program selects the enrollment number.
+4. **Create a New File:** Two windows will open. Enter the name of the new file in the textbox and press create.
+5. **Evaluate Data:** Enter the data copied from chat in Google Meet and press the evaluate button.
 
-## How to use
+Done! Data will automatically be added in a column with the heading as the current date.
 
-Step 1. Download and install the program.<br>
-Step 2. Run Attendance Sorter.exe<br>
-Step 3. Enter recogniser word through which the program selects the enrollment number.<br>
-Step 4. Two windows will open. Enter name of new file in the textbox and press create.<br>
-Step 5. Enter the data copied from chat in google meet and press evaluate button.
+## [📚 Graphic Manual](https://cdn.yashashm.dev/artifacts/attendance_sorter.pdf)
 
-Done!! Data will automatically be added in column with heading as current date.<br>
+## 🖼️ Screenshots
 
-## Graphic Manual
-[Manual](https://mega.nz/file/3bBHDaBK#UCsqVvycq1ZwkUfxwOQtdqX9vh4JldA-MqiHcv2eD1Y)
+[]()
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/1.JPG" width="400"/>
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/1.JPG" width="400"/>
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/2.JPG" width="400"/>
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/3.JPG" width="400"/>
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/4.JPG" width="400"/>
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/5.JPG" width="400"/>
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/6.JPG" width="400"/>
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/9.JPG" width="400"/>
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/7.JPG" width="400"/>
+<img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/8.JPG" width="400"/>
 
-## Screenshots
 
-<p>
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/1.JPG" width="400"/>
-  &nbsp
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/1.JPG" width="400"/>
-  &nbsp
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/2.JPG" width="400"/>
-  &nbsp
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/3.JPG" width="400"/>
-  &nbsp
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/4.JPG" width="400"/>
-  &nbsp
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/5.JPG" width="400"/>
-  &nbsp
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/6.JPG" width="400"/>
-  &nbsp
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/9.JPG" width="400"/>
-  &nbsp
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/7.JPG" width="400"/>
-  &nbsp
-  <img src="https://github.com/yashas-hm/Attendance-Sorter/blob/master/images/8.JPG" width="400"/>
-</p>
-
-### Update
-  - Added word recogniser feature so that it can be used by all universities.
+## 🔧 Update
+- Added word recogniser feature so that it can be used by all universities.
