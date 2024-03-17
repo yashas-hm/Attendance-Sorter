@@ -2,7 +2,7 @@
 
 Attendance Sorter is a simple GUI-based application designed to help university students sort attendance data conveniently. The program utilizes pandas to ensure structural and data integrity and saves the processed data in a CSV file on the desktop.
 
-## [📥 Download Here](https://cdn.yashashm.dev/artifacts/attendance_sorter.exe)
+## [📥 Download Here](https://github.com/yashas-hm/Attendance-Sorter/releases/tag/Release)
 
 ## 💡 How to Use
 
