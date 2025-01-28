@@ -14,7 +14,7 @@ Attendance Sorter is a simple GUI-based application designed to help university 
 
 Done! Data will automatically be added in a column with the heading as the current date.
 
-## [📚 Graphic Manual](https://cdn.yashashm.dev/artifacts/attendance_sorter.pdf)
+## [📚 Graphic Manual](https://github.com/yashas-hm/Attendance-Sorter/releases/tag/Release)
 
 ## 🖼️ Screenshots
 
